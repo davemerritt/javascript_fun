@@ -56,7 +56,7 @@ var books = [
 		alreadyRead: false
 	}];
 
-for (i = 0; i < books.length; i++) 
+for (var i = 0; i < books.length; i++) 
 	if(books[i].alreadyRead == true){
 	console.log("You have already read " + books[i].title + " by " + books[i].author + ".")
 }   else { 
@@ -72,5 +72,13 @@ for (i = 0; i < books.length; i++)
 // Create a function to print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes.
 // Stars: Puff, Jackie, Living Sneezes."
 
+var favoriteMovie = [
+	{
+		title: "Ong Bak",
+		duration: "105 mins",
+		stars: ["Tony Jaa", " Cheathavuth Watcharakhun", " Petchtai Wongkamlao"]				
+	}];
 
-
+function printOut(){
+	console.log(favoriteMovie[0].title + " runs for " + favoriteMovie[0].duration + " and stars " + favoriteMovie[0].stars + ".")			
+};

@@ -7,6 +7,12 @@
 // Store the following into variables: number of children, partner's name, geographic location, job title.
 // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 
+function fortune(title, locale, partner, kids) {
+	alert( "You will be " + title + " on" + location + " and probably not married to" + partner + ", so you'll have" + kids + " kids.");
+};
+fortune("employed", "earth", "a full grown bear", 0);
+fortune("jazzmaster", "some sort of jazz yacht", "said yacht", "to play jazz for")
+fortune("shot", "sight", "a doctor", "to say goodbye to your")
 // EXERCISE: The Age Calculator
 
 // Forgot how old someone is? Calculate it!
@@ -15,6 +21,11 @@
 // Store their birth year in a variable.
 // Calculate their 2 possible ages based on the stored values.
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
+
+var currentYear = 2013; 
+var birthYear = 1983;
+var age = currentYear - birthYear;
+currentYear - birthYear;
 
 // EXERCISE: The Lifetime Supply Calculator
 

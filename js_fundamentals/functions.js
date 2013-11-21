@@ -9,6 +9,14 @@
 // outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
 // Call that function 3 times with 3 different values for the arguments.
 
+
+function fortune(title, locale, partner, kids) {
+	alert( "You will be " + title + " on" + location + " and probably not married to" + partner + ", so you'll have" + kids + " kids.");
+};
+fortune("employed", "earth", "a full grown bear", 0);
+fortune("jazzmaster", "some sort of jazz yacht", "said yacht", "to play jazz for");
+fortune("shot", "sight", "a doctor", "to say goodbye to your");
+
 // EXERCISE: The Age Calculator
 
 // Forgot how old you are? Calculate it!
@@ -20,6 +28,13 @@
 // Call the function three times with different sets of values.
 // Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
 
+function calculateAge(birthYear, currentYear) { 
+	alert("You are either " + (currentYear - birthYear -1) + " or " + (currentYear - birthYear) + "." );
+};
+
+calculateAge(1983, 2013);
+calculateAge(1987, 2013);
+calculateAge(1992, 2013);
 // EXERCISE: The Lifetime Supply Calculator
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!

@@ -4,7 +4,8 @@
 
 // Never forget another recipe!
 
-// Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings).
+// Create an object to hold information on your favorite recipe. It should have properties for 
+// title (a string), servings (a number), and ingredients (an array of strings).
 // On separate lines (one console.log statement for each), log the recipe information so it looks like:
 // Mole
 // Serves: 2
@@ -12,7 +13,19 @@
 // cinnamon
 // cumin
 // cocoa
-
+//Ok, fine, I'll stop using alerts, but I still like them. 
+var favoriteRecipe = {
+	title: "Jiffy Buns",
+	servings: 24,
+	ingredients: ["Cups of flour: 7.5", "Tsp. of salt: 1", "Tbs. of yeast: 2", "Tbs. of sugar: 1", "Cups of sugar: 1", "Cups of butter: 1/4", "Cups of water: 1.5"
+	]};
+console.log(favoriteRecipe.title)
+console.log("Serves: "+ favoriteRecipe.servings)
+console.log("Ingredients: ")
+for (var i = 0; i < favoriteRecipe.ingredients.length; i++) {
+	console.log(favoriteRecipe.ingredients[i]);
+};
+//I'll come back to it later, don't think this is right.
 // EXERCISE: The Reading List
 
 // Keep track of which books you read and which books you want to read!

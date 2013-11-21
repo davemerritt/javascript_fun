@@ -56,11 +56,13 @@ var books = [
 		alreadyRead: false
 	}];
 
-if (books.alreadyRead == true){
-	console.log("You have already read " + books.title + " by " + books.author + ".");
-} else {
-	console.log("You still need to read " + books.title + " by " + books.author + ".");
+for (i = 0; i < books.length; i++) 
+	if(books[i].alreadyRead == true){
+	console.log("You have already read " + books[i].title + " by " + books[i].author + ".")
+}   else { 
+	console.log("You still need to read " + books[i].title + " by " + books[i].author + ".")
 };
+
 // EXERCISE: The Movie Database
 
 // It's like IMDB, but much much smaller!

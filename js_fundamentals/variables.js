@@ -39,6 +39,14 @@ alert("My brother is either " + age2 + " or " + age1 +".")
 // Calculate how many you would eat total for the rest of your life.
 // Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
 
+var currentAge = 23
+var maxAge = 75
+var estNum = 5
+var totalTacos = (maxAge - currentAge) * estNum
+
+alert("You would need " + totalTacos + " in order to consume " + estNum + " tacos for the rest of your life!");
+
+
 // EXERCISE: The Geometrizer
 
 // Calculate properties of a circle, using the definitions here.
@@ -46,6 +54,10 @@ alert("My brother is either " + age2 + " or " + age1 +".")
 // Store a radius into a variable.
 // Calculate the circumference based on the radius, and output "The circumference is NN".
 // Calculate the area based on the radius, and output "The area is NN".
+
+rad = 7  
+alert("The circumference is " + 2 * rad * 3.14);
+alert("The area is " + 3.14 * Math.pow(rad, 2));
 
 // EXERCISE: The Temperature Converter
 
@@ -55,5 +67,12 @@ alert("My brother is either " + age2 + " or " + age1 +".")
 // Convert it to fahrenheit and output "NN°C is NN°F".
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
+
+
+var celsius = 100
+alert("100° celsius is equal to " + (celsius * (9 / 5) +32) + "° farenheit!")
+
+var farenheit = 32
+alert("32° farenheit is equal to " + (farenheit - 32) * 5/9 + "° celsius!") 
 
 

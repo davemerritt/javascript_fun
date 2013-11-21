@@ -70,9 +70,9 @@ alert("The area is " + 3.14 * Math.pow(rad, 2));
 
 
 var celsius = 100
-alert("100° celsius is equal to " + (celsius * (9 / 5) +32) + "° farenheit!")
+alert("100° celsius is equal to " + (celsius * (9 / 5) +32) + "° fahrenheit!")
 
-var farenheit = 32
-alert("32° farenheit is equal to " + (farenheit - 32) * 5/9 + "° celsius!") 
+var fahrenheit = 32
+alert("32° fahrenheit is equal to " + (fahrenheit - 32) * 5/9 + "° celsius!") 
 
 

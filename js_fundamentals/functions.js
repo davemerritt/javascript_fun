@@ -46,6 +46,15 @@ calculateAge(1992, 2013);
 // Call that function three times, passing in different values each time.
 // Bonus: Accept floating point values for amount per day, and round the result to a round number.
 
+function calculateSuply(age, ammountPerDay) {
+	var maxAge = 75
+	alert("You will need " + ((maxAge - age) * ammountPerDay) + " tacos to last you until you die at the age of " + maxAge + ".");	
+};
+
+calculateSuply(29, 4)
+calculateSuply(26, 5)
+calculateSuply(21, 2)
+
 // EXERCISE: The Geometrizer
 
 // Create 2 functions that calculate properties of a circle, using the definitions here.
@@ -59,6 +68,22 @@ calculateAge(1992, 2013);
 // Pass the radius to the function.
 // Calculate the area based on the radius, and output "The area is NN".
 
+function calcCircumfrence(radius) {
+	alert("The circumference is " + ( (radius * 2) * 3.14 ) + ".");
+};
+
+calcCircumfrence(7)
+calcCircumfrence(5)
+calcCircumfrence(4)
+
+function calcArea(radius) { 
+	alert("The area is " + (3.14 * Math.pow(radius, 2)) + ".");
+};
+
+calcArea(7)
+calcArea(9)
+calcArea(12)
+
 // EXERCISE: The Temperature Converter
 
 // It's hot out! Let's make a converter based on the steps here.
@@ -71,4 +96,16 @@ calculateAge(1992, 2013);
 
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
+
+function celsiusToFarenheit() {
+	var celsiusTemp = 100
+	alert( celsiusTemp + "° celsius is equal to " + (celsiusTemp * (9 / 5) +32) + "° fahrenheit.");
+};
+
+function farenheitToCelsius() {
+	var fahrenheitTemp = 32
+	alert( fahrenheitTemp + "° fahrenheit is equal to " + (fahrenheitTemp - 32) * 5/9 + "° celsius.");
+}
+	
+
 

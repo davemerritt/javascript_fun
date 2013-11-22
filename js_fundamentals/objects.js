@@ -82,3 +82,4 @@ var favoriteMovie = [
 function printOut(){
 	console.log(favoriteMovie[0].title + " runs for " + favoriteMovie[0].duration + " and stars " + favoriteMovie[0].stars + ".")			
 };
+printOut();

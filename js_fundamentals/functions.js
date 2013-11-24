@@ -105,7 +105,7 @@ function celsiusToFarenheit() {
 function farenheitToCelsius() {
 	var fahrenheitTemp = 32
 	alert( fahrenheitTemp + "° fahrenheit is equal to " + (fahrenheitTemp - 32) * 5/9 + "° celsius.");
-}
+};
 	
 
 

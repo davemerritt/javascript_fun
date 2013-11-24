@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Awesome Title</title>
+	   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	</head>
+	<body>
+		<h1>A List of Wonderful Books</h1>
+		<script>
+			var books = [
+			{
+				title: "A Memory of Light", 
+				author: "Robert Jordan and Brandon Sanderson",
+				alreadyRead: true
+			},
+			{
+				title: "Perdido Street Station",
+				author: "China Mieville",
+				alreadyRead: true
+			},
+			{
+				title: "Iron Sunrise",
+				author: "Charles Stross",
+				alreadyRead: false
+			}];
+
+			for (var i = 0; i < books.length; i++ ) {
+				document.write("<p>" + "Title: " + books[i].title + "<br>" + " By: " + books[i].author + "</p>");
+						
+			};
+
+		</script>
+	</body>
+</html>

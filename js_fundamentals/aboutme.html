@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="utf-8"/>
+   <title>About Me</title>
+   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+ </head>
+ <body>
+   <h1>About Me</h1>
+  
+   <ul>
+     <li>Nickname: <span id="nickname"></span>
+     <li>Favorites:  <span id="favorites"></span>
+     <li>Hometown: <span id="hometown"></span>
+    </ul>
+
+  <script>
+  	$("body").css("fontFamily", "Ariel, sans-serif");
+
+ 	var list = document.getElementsByTagName('ul')[0];
+ 	list.getElementsByTagName('li')[0].innerHTML='Nickname: Blank';
+ 	
+  	var list = document.getElementsByTagName('ul')[0];
+ 	list.getElementsByTagName('li')[1].innerHTML='Favorites: Beer? Board Games! Both at once! Bears.';
+ 
+ 	var list = document.getElementsByTagName('ul')[0];
+ 	list.getElementsByTagName('li')[2].innerHTML='Hometown: Lunenburg, N.S.';
+	 	
+ 	var x = document.getElementsByTagName('li')
+ 	
+ 	for ( i = 0; i < x.length; i++ ) { 
+ 		x[i].className = 'listitem';
+ 		x[i].style.color = 'red';
+ 	};
+
+ 	var picture = document.createElement('img');
+ 	picture.src = "http://tinyurl.com/pwrjsna";
+ 	document.body.appendChild(picture); 
+
+ 	</script>
+
+  </body>
+
+</html>
